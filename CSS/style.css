@@ -15,7 +15,6 @@ main {
 }
 
 .nav {
-
     display: flex;
 }
 
@@ -36,7 +35,6 @@ main {
 .nav-item:hover {
     background-color: gray;
 }
-
 .content-title {
     padding: 20px 0;
     display: flex;
@@ -57,20 +55,18 @@ main {
 .content-right {
     box-sizing: border-box;
     width: 50%;
-
 }
 
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    border: 1px solid black;
     background: darkslategray;
     color: white;
     padding: 10px 0;
     margin-top: 10px;
     cursor: pointer;
-
 }
 
 .button:hover {
