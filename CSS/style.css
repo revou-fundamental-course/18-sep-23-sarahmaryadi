@@ -6,6 +6,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -17,10 +18,12 @@ main {
 
     display: flex;
 }
+
 .page-title {
     font-size: 1.5em;
     font-weight: bold;
 }
+
 .nav-item{
     border: 1px solid black;
     display: flex;
@@ -29,9 +32,11 @@ main {
     text-decoration: none;
     color: black
 }
+
 .nav-item:hover {
     background-color: gray;
 }
+
 .content-title {
     padding: 20px 0;
     display: flex;
@@ -39,6 +44,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .content{
    display: flex; 
 }
@@ -47,6 +53,7 @@ main {
     box-sizing: border-box;
     width: 50%;
 }
+
 .content-right{
     box-sizing: border-box;
     width: 50%;
@@ -65,24 +72,28 @@ main {
     cursor: pointer;
 
 }
+
 .button:hover {
     background-color: black;
     color : gray;
 }
+
 .content-form{
     display: flex;
     flex-direction: column;
     padding: 20px;
     background: lightgrey;
 }
+
 input {
     margin-bottom: 10px;
     padding: 8px 2px;
-
 }
+
 select {
     padding: 8px 2px;
 }
+
 .content-image {
     box-sizing: border-box;
     display: flex;
