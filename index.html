@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Grocery</title>
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
 </head>
 <body>
     <header class="navigation">
@@ -29,22 +29,28 @@
             <div id="content-left" class="content-left">
                 <div id="content-image" class="content-image">
                     <img src="asset/placeholder-image2.png" class="image" alt="slider image">
+                    <img src="https://static.thenounproject.com/png/1269202-200.png" class="image">
                     <span>Fresh everyday</span>
                 </div>
         </div>
         <div id="content-right" class="content-right">
-            <form class="content-form">
+            <form name="contact-form" class="content-form">
                 <label for="your-name">Your Name:</label>
-                <input type="text" name="your-name" placeholder="First and last name">
+                <input id="your-name" type="text" name="your-name" placeholder="First and last name">
+                <p id="name-error" class="error-message"></p>
 
                 <label for="email">Email Adress:</label>
-                <input type="email" name="email" placeholder="example@email.com">
+                <input id="email" type="email" name="email" placeholder="example@email.com">
+                <p id="email-error" class="error-message"></p>
 
                 <label for="interest">What are you interested in ?</label>
                 <select type="select" name="interest">
-                    <option>Football</option>
-                    <option>Badminton</option>
+                    <option value="">--select your interest--</option>
+                    <option value="football">Football</option>
+                    <option value="badminton">Badminton</option>
                 </select>
+                <p id="interest-error" class="error-message"></p>
+
                 <div id="button" type="submit" class="button">SEND</div>
                 </form>
             </div>
@@ -54,5 +60,6 @@
         <div class="circle"> 1 </div>
     </div>
     <footer></footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
