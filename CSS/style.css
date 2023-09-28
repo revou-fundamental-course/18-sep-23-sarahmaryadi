@@ -1,5 +1,6 @@
 body {
     padding: 0 25px;
+    background: yellowgreen;
 }
 
 main {
@@ -135,6 +136,12 @@ select {
     color: gray;
 }
 
+.promo {
+    font: helvetica;
+    background: green;
+    color: white;
+    padding: 20px;
+}
 .circle {
     display: flex;
     justify-content: center;
@@ -147,6 +154,11 @@ select {
     color: red;
     font-size: 0.8em;
     margin-top: 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
