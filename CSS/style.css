@@ -50,18 +50,43 @@ main {
 .content-left {
     box-sizing: border-box;
     width: 50%;
+    font-style: italic;
+}
+.image-icon {
+    width: 5%;
 }
 
+.content-left-down {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.name-author {
+    font-weight: 700;
+}
+
+.id-author {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+}
 .content-right {
     box-sizing: border-box;
     width: 50%;
+    background: green;
+    padding: 20px;
+    color: white;
 }
 
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     background: darkslategray;
     color: white;
     padding: 10px 0;
@@ -78,7 +103,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background: lightgray;
+    background: green;
 }
 
 input {
