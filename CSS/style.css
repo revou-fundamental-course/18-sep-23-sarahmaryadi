@@ -1,5 +1,5 @@
 body {
-    padding: 0 25px;
+    padding: 0px;
     background: yellowgreen;
     color: white;
 }
@@ -55,29 +55,39 @@ main {
     box-sizing: border-box;
     width: 50%;
     font-style: italic;
-    color: white;
+    color: black;
+}
+.image {
+    width: 900px;
+    height: 370px;
+}
+.container-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-style:normal;
 }
 .image-icon {
-    width: 5%;
+    width: 5%;  
+    padding: 10px;
 }
-
-.content-left-down {
-    margin: 0px 0px 0px 0px;
+.author {
     display: flex;
+    font-weight: 550;
     flex-direction: column;
-    align-items: center;
-    padding: 0;
-}
-
-.name-author {
-    font-weight: 700;
+    position: relative;
 }
 
 .id-author {
     display: flex;
-    flex-direction: row;
     padding: 0;
 
+}
+.border {
+    border-bottom: 3px solid green;
+    width: 150px;
+    height: 0px;
 }
 .content-right {
     box-sizing: border-box;
@@ -96,6 +106,7 @@ main {
 .button {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     border: 1px solid white;
     background: darkslategray;
@@ -143,21 +154,155 @@ select {
     display: block;
 }
 .content-image span {
-    color: whitesmoke;
+    color: black;
 }
 
+.content-second {
+    display : flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
 .promo {
+    box-sizing: border-box;
+    float:left;
+    /*font-style: italic;*/
     font: helvetica;
+    width: 30.7%;
     background: green;
     color: white;
     padding: 20px;
 }
-.circle {
+.keranjang-promo img {
+    width : 10% ;
+    border: 1px solid white;
+    background: white;
+    padding: 3px;
+    border: 1px;
+    cursor: pointer;
+}
+.keranjang-promo img:hover {
+    background: yellowgreen;
+}
+.benefit {
+    box-sizing: border-box;
+    background: green;
+    width: 68.8%;
+    font-family: monospace;
+    padding: 30px;
+    color: white;
+}
+.benefit-second {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.benefit-title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.border-benefit {
+    border-bottom: 3px solid greenyellow;
+    width: 450px;
+    height: 0px;
+}
+.benefit-a {
+    width:50%
+}
+.benefit-b{
+    width:50%
+
+}
+.benefit-list {
+    align-items: center;
+    font-weight: 800;
+    font-family: monospace;
+    align-items: center;
+}
+.benefit-list img {
+    width: 50px;
+    height:50px;
+    justify-content:center;
+    background: yellowgreen;
+    border-radius: 10px;
+
+}
+.package {
+    display: flex;
+}
+
+.heading-package {
+    background: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.package-list {
+    display:flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 6px;
+}
+.package-item {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    width: 15em;
+}
+.package-icon {
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px solid green;
     display: flex;
     justify-content: center;
-    background: lightgray;
-    border-radius: 50%;
-    width: 1.2em;
+    align-items: center;
+}
+.package-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.package-content h3 {
+    font-weight: 500;
+}
+
+.closing  {
+    color: white;
+    border-top: 2px solid white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align:center;
+    align-items: center;
+    position: inline-block;
+    justify-content: center;
+}
+.closing-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.button {
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid green;
+    background: white;
+    color: green;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: green;
+    color : white;
 }
 
 .error-message{
@@ -167,9 +312,11 @@ select {
 }
 .footer {
     display: flex;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     font-style: bold;
+    background: green;
 }
 
 @media screen and (max-width: 767px) {

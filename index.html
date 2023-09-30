@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Grocery</title>
     <link rel="stylesheet" href="CSS/style.css">
-    
 </head>
+<script src="https://unpkg.com/feather-icons"></script>
 <body>
     <header class="navigation">
         <div class="page-title">E-Grocery</div>
@@ -32,11 +32,14 @@
                     <img src="https://dinkes.malangkota.go.id/wp-content/uploads/sites/104/2016/08/sayur-dan-buah.jpg" class="image">
                     <span>"Setiap hari beli sayur buah yang fresh disini"</span>
                 </div>
-                <div class="content-left-down">
-                <img class="image-icon" src="https://icons.veryicon.com/png/o/application/internet-merchant-bank-wireless-icon-library/personal-information-3.png" class="personal-icon">
-                <span class="name-author">Florence Huges</span>
-                <span class="id-author">Ibu Rumah Tangga, 28</span>
+                <div class="container-left">
+                <img class="image-icon" src="https://icons.veryicon.com/png/o/application/internet-merchant-bank-wireless-icon-library/personal-information-3.png" class="personal-icon" alt="personal-icon">
+                <div class="author">
+                <div class="name-author">Florence Huges</div>
+                <div class="id-author">Ibu Rumah Tangga, 28</div>
                 </div>
+                </div>
+                <hr class="border">
         </div>
         <div id="content-right" class="content-right">
             <div>
@@ -55,8 +58,8 @@
                 <label for="interest">What are you interested in ?</label>
                 <select type="select" name="interest">
                     <option value="">--select your interest--</option>
-                    <option value="football">Football</option>
-                    <option value="badminton">Badminton</option>
+                    <option value="football">Cakes and pastry</option>
+                    <option value="badminton">Main course</option>
                 </select>
                 <p id="interest-error" class="error-message"></p>
 
@@ -64,26 +67,126 @@
                 </form>
             </div>
         </div>
-    </main> 
+        <div class="content-second">
     <div class="promo">
         <h1>Month-End Sale!</h1>
-        <div>Udah gajian? waktunya belanja bulanan dong.</div>
-        <br>
-        <div>Cukup belanja senilai 100 ribuan aja,
-        <div>kamu bisa dapat diskon hingga 50% all item.</div>
-        <br>
-        <div>Banyak belanja berat di ongkir ?</div>
-        <br>
-        <div>Tenang! untuk kamu yang belanja minimum 300 ribu,
-        gratis ongkir full JABODETABEK.</div>
+        <p>Udah gajian? waktunya belanja bulanan dong.</p>
+        <p>Cukup belanja senilai 100 ribuan aja, kamu bisa dapat diskon hingga 50% all item.</p>
+        <h2>Banyak belanja berat di ongkir ?</h2>
+        <p>Tenang! untuk kamu yang belanja minimum 300 ribu,
+        gratis ongkir full JABODETABEK.</p>
+        <p>Cusss buruan isi keranjang-mu dan check-out sekarang!</p>
+        <div class="keranjang-promo">
+            <img src="asset/keranjang.png" alt="keranjang">
+        </div>
+    </div>
+    <div class="benefit">
+        <div class="benefit-title">
+        <h1>Keuntungan Berbelanja di E-Grocery</h1>
+        <hr class="border-benefit">
+        </div>  
 
-        <div>Cusss buruan isi keranjang-mu dan check-out sekarang!</div>
+        <div class="benefit-second">
+        <div class="benefit-a">
+        <div class="benefit-list">
+        <img src="asset/icon easy.png" alt="list-easy" class="benefit-image">
+        <p>Pemesanan mudah, gak pakai bingung</p></div>
+        
+        <div class="benefit-list">
+        <img src="asset/jam 2.png" alt="list-cepat" class="benefit-image">
+        <p>Diproses cepat, langsung setelah order masuk</p></div>
+        
+        <div class="benefit-list">
+        <img src="asset/icon kualitas.png" alt="list-kualitas" class="benefit-image">
+        <p>Produk berkualitas dari sumber terbaik</p></div>
     </div>
-    <div id="our-products">
-        <div class="circle"> 0 </div>
+        <div class="benefit-b">
+        <div class="benefit-list">
+        <img src="asset/hemat 4.png" alt="list-hemat" class="benefit-image">
+        <p>Tetap hemat, manfaatin promo dan diskon menarik</p></div>
+        
+        <div class="benefit-list">
+        <img src="asset/icon 2 beragam pilihan.png" alt="list-beragam" class="benefit-image">
+        <p>Gak bosen, banyak pilihannya</p></div>
     </div>
     </div>
-    <footer class="footer">RevoU Mini Course</footer>
+    </div>
+    </div>
+        <div class="Package">
+        <div class="heading-package">
+            <h2>Our Package</h2>
+        </div>
+        </div>
+        <div class="content-package">
+            <div class="package-list">
+
+                <div class="package-item">
+                    <div class="package-icon">
+                        <i data-feather="clipboard"></i>
+                    </div>
+                    <div class="package-content">
+                        <h3>Bundling Set</h3>
+                        <p>Bahan premium untuk hasilkan masakan terbaik</p>
+                    </div>
+                </div>
+
+                <div class="package-item">
+                    <div class="package-icon">
+                        <i data-feather="clipboard"></i>
+                    </div>
+                    <div class="package-content">
+                        <h3>Fruits</h3>
+                        <p>Buah segar yang fresh</p>
+                    </div>
+                </div>
+                
+                <div class="package-item">
+                    <div class="package-icon">
+                        <i data-feather="clipboard"></i>
+                    </div>
+                    <div class="package-content">
+                        <h3>Vegetables</h3>
+                        <p>Sayuran segar yang baru dipanen</p>
+                    </div>
+                </div>
+                
+                <div class="package-item">
+                    <div class="package-icon">
+                        <i data-feather="clipboard"></i>
+                    </div>
+                    <div class="package-content">
+                        <h3>Cookies and snacks</h3>
+                        <p>Cemilan enak untuk temani harimu</p>
+                    </div>
+                </div>
+                <div class="package-item">
+                    <div class="package-icon">
+                        <i data-feather="clipboard"></i>
+                    </div>
+                    <div class="package-content">
+                        <h3>Utensils</h3>
+                        <p>Perabotan dapur rusak ? kami juga sedia!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="closing" id="call-action">
+        <div class="container">
+        <h2 class="closing-title">Penuhi Kebutuhan Dapur-mu di E-Grocery</h2>
+    <div id="button" type="submit" class="button">Hubungi Kami</div>
+    </div>
+    </div>
+</main> 
+    <footer class="footer">
+    <div class="revou">RevoU Mini Course</div>
+    <ul class="termofsevice">Term of service</ul>
+    <ul class="creator">© 2023</ul>
+</footer>
     <script src="JS/script.js"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html
