@@ -37,7 +37,8 @@ main {
 }
 
 .nav-item:hover {
-    background-color: gray;
+    background-color: white;
+    color: green;
 }
 .content-title {
     padding: 20px 0;
@@ -109,16 +110,17 @@ main {
     text-align: center;
     justify-content: center;
     border: 1px solid white;
-    background: darkslategray;
-    color: white;
+    background: yellowgreen;
+    color: black;
+    font-weight: 500;
     padding: 10px 0;
     margin-top: 10px;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: black;
-    color : gray;
+    background-color: white;
+    color : green;
 }
 
 .content-form {
@@ -227,9 +229,6 @@ select {
     border-radius: 10px;
 
 }
-.package {
-    display: flex;
-}
 
 .heading-package {
     background: green;
@@ -261,6 +260,7 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .package-content {
     display: flex;
@@ -288,19 +288,19 @@ select {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.button {
+.button-down {
     flex-direction: column;
     width: 200px;
-    border: 1px solid green;
+    border: 3px solid green;
     background: white;
-    color: green;
+    color: black;
     padding: 10px 0;
     margin-bottom: 10px;
     font-weight: 700;
     cursor: pointer;
 }
 
-.button:hover {
+.button-down:hover {
     background-color: green;
     color : white;
 }
